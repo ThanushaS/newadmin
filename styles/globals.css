@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -24,6 +26,7 @@
   top: 0;
   background: linear-gradient(180deg, #191F2C 0%, #131221 100%);
   border-radius: 0px;
+  display: block;
 }
 .sidebar.inactive{
   width: 0px;
@@ -408,7 +411,7 @@
 	padding: 0px 0px;
 	background: #2A3240;
 	width: calc(100%-94px);
-  margin-left: 94px;
+  margin-left: 14px;
   } 
 		.navbar.inactive {
 			margin-left: 0px;
@@ -442,7 +445,7 @@
 	left: 60px;
 	line-height: 14px;
 	gap: 10px;
-  }
+    }
 
   .profile_name {
 		width: 62px;
@@ -640,4 +643,7 @@ width: 0;
 
 menu-toggle:checked ~ .navbar {
 width: 60px;
+}
+
+.grid{
 }

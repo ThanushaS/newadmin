@@ -4,7 +4,10 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Sidebar from '@/components/Sidebar'
-import TopCards from '@/components/TopCards'
+import GamingServices from '@/components/GamingServices'
+import TrendingTournaments from '@/components/TrendingTournaments'
+import TrendingOrganisers from '@/components/TrendingOrganisers'
+import LocalBusinesses from '@/components/LocalBusinesses'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,11 +20,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='min-h-screen'>
+      <main className=''>
         <Navbar/>
+        <GamingServices/>
+        <LocalBusinesses/>
+        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-1'>
+          <TrendingTournaments/>
+          <TrendingOrganisers/>
+        </div>
       </main>
-      <TopCards/>
-
        </>
   );
 }

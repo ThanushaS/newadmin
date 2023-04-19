@@ -1,12 +1,13 @@
 import React from 'react'
 import user from "../assets/user.jpg";
 import Image from 'next/image';
+import { icons } from 'react-icons';
 const Navbar = () => {
   return (
 <div>
-<div className= 'navbar' navbar navbar-expand-lg   py-4 px-1 sticky-top >
+<div className= 'navbar navbar navbar-expand-lg   py-4 px-1 sticky-top' >
             <div className=" item d-flex align-items-center">
-                  <i className=" bi bi-list  primary-text fs-4 me-3" id="menu-toggle"onClick={()=>{setInactive(!inactive);}} ></i>
+                  <i className=" bi bi-list  primary-text fs-4 me-3"  ></i>
             </div>
         <div className="search-controller">
             <button className="search-btn">
@@ -18,7 +19,7 @@ const Navbar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
           </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+       
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <div className='items'>
                 <div className="item">
@@ -42,7 +43,7 @@ const Navbar = () => {
                   </div>
                   </div>
               </ul>
-        </div>
+       
       </nav>
       
     </div>
