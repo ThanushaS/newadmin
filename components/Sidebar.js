@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import user from 'public/user.jpg'
+
 const Sidebar = ({children}) => {
   return (
-    <div className='flex'>       
+    <div className='flex '>       
        <div className="wrapper fixed w-94 h-screen p-4 border-r-[1px] flex flex-col justify-between">
           <div className="sidebar ">
             <div className="logo-details">
@@ -62,14 +64,22 @@ const Sidebar = ({children}) => {
     
       <li>
       <div className="p-del">
-        
+          <div className="profile-content">
+            <div className='image'>
+            <img src="/user.jpg"alt="" 
+           />
+          </div>
+          </div>
         
         <div className="name-job">
-        <div className="profile_name">John</div>
-        <div className="job">Web Desginer</div>
+          <div className="profile_name">John</div>
+          <div className="job">Web Desginer</div>
+        </div>
+        <i  class='bi bi-box-arrow-left'></i>
       </div>
-      <i className='bx bi-log-out'></i>
-      </div>
+        
+      
+      
       </li>
     </ul>
         </div>    

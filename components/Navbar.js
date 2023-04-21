@@ -1,5 +1,5 @@
 import React from 'react'
-import user from "../assets/user.jpg";
+import user from "../public/user.jpg";
 import Image from 'next/image';
 import { icons } from 'react-icons';
 const Navbar = () => {
@@ -34,7 +34,7 @@ const Navbar = () => {
                       <i className="bi bi-gear-fill"></i>
                   </div>
                   <div className="item">
-                    <img src={user} alt="user" className="avatar"/>
+                  <img src="/user.jpg"alt="user"  className="avatar"/>
                     <div className="name-job">
                       <div className="profile_name">John</div>
                       <div className="mail">cod@gmail.com</div>
