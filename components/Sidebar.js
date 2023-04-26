@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import user from 'public/user.jpg'
+import Link from 'next/link'
 
 const Sidebar = ({children}) => {
   return (
@@ -15,26 +16,24 @@ const Sidebar = ({children}) => {
             </div>
             <ul className="nav">
                 <li>
-                    <a href="#"><i className='bx bi-grid'></i>
+                    <a href="/"><i className='bx bi-grid'></i>
                     <span className="link-n">Dashboard</span>
                     </a>
                     <ul className="sub-menu blank">
-                    <li><a className="link-n" href="">Dashboard</a></li>
+                    <li><a className="link-n" href="#">Dashboard</a></li>
                     </ul>
                 </li>
                 <li>
                   <div className="icon">
-                    <a href="#">
+                    <a href="/nested">
                       <i className='bx bi-collection'></i>
-                      <span className="link-n">Category</span>
+                      <span className="link-n">Teams</span>
                     </a>
                     <i className='bx bxs-chevron-down arrow'></i>
                   </div>
                   <ul className="sub-menu">
-                    <li><a className="link-n" href="#">Category</a></li>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Card Design</a></li>
-                    <li><a href="#">Login Form</a></li>
+                    <li><a className="link-n" href="/teams">Teams</a></li>
+                    <li><a href="#"> Pro Teams </a></li>
                   </ul>
                 </li>
         <li>

@@ -2,22 +2,22 @@ import React from 'react'
 
 const LocalBusinesses = () => {
   return (
-    <div className='grid lg:grid-cols-6 md:col-span-2 gap-4 p-4 '>
-      <div className=' flex jusifiy-between w-full border p-4 rounded-lg r-5'>
-     <div className='flex flex-col w-full pd-4'>
-     <div className='local'></div>
+    <div>
+      <div className='grid'>
+      <div className=' flex '>
+       <div className='local'></div>
      <p className='lb'>Local Businesses </p>
-     <p className='viewall'>View All</p>
+     <button className='viewall'>View All</button>
      <div className='row w-full pd-4'>
               <div className='cof'>
             <img src="/"alt="" 
            />
           </div>
           <p className='coffday'>Coffe Day</p>
-          <p className='num'><i class="bi bi-telephone-fill"></i>77877876</p>
+          <p className='num'><i class="bi bi-telephone-fill"></i>7789898</p>
           <p className='country'><i class="bi bi-geo-alt-fill"></i>France</p>
       </div>
-      <hr></hr>
+    
   
       <div className='row w-full pd-4'>
       
@@ -32,7 +32,7 @@ const LocalBusinesses = () => {
     
      </div>
       
-      <hr></hr>
+   
     
       <div className='row w-full pd-4'>
               <div className='cof2'>
@@ -44,7 +44,7 @@ const LocalBusinesses = () => {
           <p className='country2'><i class="bi bi-geo-alt-fill"></i>Canada</p>
      </div>
      
-      <hr></hr>
+    
       
       <div className='row w-full pd-4'>
       <div className='cof3'>
@@ -56,7 +56,7 @@ const LocalBusinesses = () => {
           <p className='country3'><i class="bi bi-geo-alt-fill"></i>Canada</p>
      </div>
      
-      <hr></hr>
+    
   
       <div className='row w-full pd-4'>
       <div className='cof4'>
@@ -68,15 +68,17 @@ const LocalBusinesses = () => {
           <p className='country4'><i class="bi bi-geo-alt-fill"></i>Canada</p>
      </div>
     
-      <hr></hr>
-     
+      
+
       <div className='row w-full pd-4'>
       <p className='squre'></p>
-      <p>ccccc</p>
+      <p className='logo'></p>
+      <p className='esport'>www.esportspro.gg</p>
      </div>
       
-     </div>
+    
        </div>
+    </div>
     </div>
   )
 }
