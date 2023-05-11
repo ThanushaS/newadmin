@@ -9,7 +9,11 @@ import TrendingTournaments from '@/pages/TrendingTournaments'
 import TrendingOrganisers from '@/pages/TrendingOrganisers'
 import LocalBusinesses from '@/pages/LocalBusinesses'
 import Link from 'next/link'
-import teams from './teams'
+import teams from './nested/teams'
+import proTeams from './proTeams'
+import overView from './overView'
+import participatingTournaments from './participatingTournaments'
+import ManageMyTournaments from './ManageMyTournaments'
 
 const inter = Inter({ subsets: ['latin'] })
 import image from 'next/image'
@@ -19,7 +23,7 @@ export default function Home() {
     <>
     <div>
          <image1
-    src='/'
+    src='./bg.jpg'
     alt='background image'
    />
       <Head>
@@ -37,13 +41,15 @@ export default function Home() {
        <TrendingOrganisers/>
        <LatestNews/>
       </div>
-        
+      <div className={styles.container}>
+          <overView/>
+          <participatingTournaments/>
+        </div>
         <div className=''>
-<teams/>
+          <proTeams/>
+             
         </div>
-        <div>
-      
-        </div>
+        
       </div>
        </>
   );

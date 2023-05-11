@@ -9,27 +9,37 @@ const LatestNews = () => {
       </div>
       <div>
        <p className='box1'></p>
-       <p className='box'></p>
+        <div >
+        <img src="/wp.jpg"alt="" className='box'/>
+        </div>
        <p className='tour'>Tournamet of Online</p>
       </div>
       <div>
        <p className='box12'></p>
-       <p className='box2'></p>
+       <div >
+        <img src="/wp.jpg"alt="" className='box2'/>
+        </div>
        <p className='tour1'>Tournamet of Online</p>
       </div>
       <div>
        <p className='box13'></p>
-       <p className='box3'></p>
+       <div >
+        <img src="/oip.jpg"alt="" className='box3'/>
+        </div>
        <p className='sport'>Sport games Online</p>
       </div>
       <div>
        <p className='box14'></p>
-       <p className='box4'></p>
+       <div >
+        <img src="/b.jpg"alt="" className='box4'/>
+        </div>
        <p className='admin'>Admin</p>
       </div>
       <div>
        <p className='box15'></p>
-       <p className='box5'></p>
+       <div >
+        <img src="/oip.jpg"alt="" className='box5'/>
+        </div>
        <p className='youtube'>Youtube</p>
       </div>
     </div>

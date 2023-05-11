@@ -9,9 +9,9 @@ const LocalBusinesses = () => {
      <p className='lb'>Local Businesses </p>
      <button className='viewall'>View All</button>
      <div className='row w-full pd-4'>
-              <div className='cof'>
-            <img src="/"alt="" 
-           />
+              <div>
+            <img src="/oip.jpg"alt="" 
+            className='cof'/>
           </div>
           <p className='coffday'>Coffe Day</p>
           <p className='num'><i class="bi bi-telephone-fill"></i>7789898</p>
@@ -21,9 +21,9 @@ const LocalBusinesses = () => {
   
       <div className='row w-full pd-4'>
       
-              <div className='cof1'>
-            <img src="/"alt="" 
-           />
+              <div >
+            <img src="/b.jpg"alt="" 
+           className='cof1'/>
           </div>
           
           <p className='coffday1'>BKe</p>
@@ -35,9 +35,9 @@ const LocalBusinesses = () => {
    
     
       <div className='row w-full pd-4'>
-              <div className='cof2'>
-            <img src="/"alt="" 
-           />
+              <div >
+            <img src="/oip.jpg"alt="" 
+           className='cof2'/>
           </div>
           <p className='coffday2'>Writter</p>
           <p className='num2'><i class="bi bi-telephone-fill"></i>778976873</p>
@@ -47,9 +47,9 @@ const LocalBusinesses = () => {
     
       
       <div className='row w-full pd-4'>
-      <div className='cof3'>
-            <img src="/"alt="" 
-           />
+      <div >
+            <img src="/wp.jpg"alt="" 
+          className='cof3' />
           </div>
           <p className='coffday3'>Entainer</p>
           <p className='num3'><i class="bi bi-telephone-fill"></i>778976873</p>
@@ -59,9 +59,9 @@ const LocalBusinesses = () => {
     
   
       <div className='row w-full pd-4'>
-      <div className='cof4'>
-            <img src="/"alt="" 
-           />
+      <div>
+            <img src="/oip.jpg"alt="" 
+           className='cof4' />
           </div>
           <p className='coffday4'>Entainer</p>
           <p className='num4'><i class="bi bi-telephone-fill"></i>778976873</p>
@@ -72,7 +72,9 @@ const LocalBusinesses = () => {
 
       <div className='row w-full pd-4'>
       <p className='squre'></p>
-      <p className='logo'></p>
+      <div >
+        <img src="/wp.jpg"alt="" className='logo'/>
+        </div>
       <p className='esport'>www.esportspro.gg</p>
      </div>
       
