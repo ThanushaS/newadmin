@@ -1,0 +1,67 @@
+.fni{
+width: 319px;
+height: 26px;
+left: 114px;
+top: 270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.pt{
+     position: absolute;
+width: 264px;
+height: 26px;
+left: 638px;
+top: 230px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.LiveTournaments{
+width: 161px;
+height: 23px;
+left: 1183px;
+top: 288px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+}
+.row2{
+   
+}
+.rw{
+    
+}
+
+@media screen {
+     .row2{
+          width: 250px;
+          height: 756px;
+          margin-left: 1050px;
+          margin-top:-130px ;
+     }
+     .rw{
+          margin-left: 20px;
+          margin-top:10px ;
+     }
+}
