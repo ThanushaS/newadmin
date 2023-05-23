@@ -40,7 +40,7 @@ export default function Home() {
    
         <GamingServices/>
         <LocalBusinesses/>
-     
+          <TrendingTournaments/>
        <TrendingOrganisers/>
       
       </div>
