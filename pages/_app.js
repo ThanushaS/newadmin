@@ -22,9 +22,9 @@ export default function App({ Component, pageProps }) {
 
         
       </Head>
-    <Sidebar><Layout>
+   <Layout> <Sidebar>
   <Component {...pageProps} />
- </Layout> </Sidebar>
+  </Sidebar></Layout> 
 
  </>
   )

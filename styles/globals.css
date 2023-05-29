@@ -3,25 +3,27 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
  
 }
 body{
-     width: 1440px;
-     height: 1080px;
-     left: 0px;
-     top: 0px;
+   width: 100%;
+   height: 100%;
+     background: #363549;
+ 
 }
 .background{
-     position: absolute;
-     
-     
-     background: url(bg.jpg);
-     opacity: 0.4;
+   
 }
 .wrapper{
   display: flex;
-  min-height: 100%;
+
+}
+.esimg{
+     position: absolute;
+width: 59px;
+height: 39px;
+left: 15px;
+top: 20px;
 
 }
 .sidebar{
@@ -710,7 +712,7 @@ body{
 
 
 
-.card {
+.card-game {
   position: relative;
   width: 196.8px;
   height: 196.8px;
@@ -733,7 +735,6 @@ background: rgba(19, 26, 37, 0.85);
   width: 182.99px;
   height: 170.91px;
   transform: translateY(-60px);
-  z-index: 99;
   }
 
 .imgg {
@@ -743,18 +744,7 @@ background: rgba(19, 26, 37, 0.85);
      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-.card-body {
-  
-  transition: 0.3s;
-}
 
-
-.card-body h2 {
-  color: #7f9ead;
-}
-body{
-     background: #191F2C;
-}
 
 /******LocalBusinesses****/
 .grid{
@@ -916,122 +906,94 @@ border-radius: 4px;
 }
 
 
-/*Profile Card 5*/
-.profile-card-5{
-left: 367px;
-width: 197px;
-height: 219px;
-margin-top: 288px;
-
-background: rgba(19, 26, 37, 0.85);
-border-radius: 4px;
- }
- .profile-card-5 .btn{
-     border-radius:2px;
-     text-transform:uppercase;
-     font-size:12px;
-     padding:7px 20px;
- }
- .profile-card-5 .card-img-block {
-     width: 183px;
-     height: 112px;
-     top: -63px;
-     
-     border-radius: 4px;
-     position: relative;
-     
- }
- .profile-card-5 .card-img-block img{
-     border-radius:4px;
-     box-shadow:0 0 10px rgba(0,0,0,0.63);
- }
- .card-body h5{
-     width: 94px;
-     height: px;
-     left: 372.08px;
-     margin-top: -78px;
-     
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 14px;
-     line-height: 16px;
-     text-transform: capitalize;
-     
-     color: #FFFFFF;
- }
- .profile-card-5 p{
-     font-size:14px;
-     font-weight:300;
- }
- .profile-card-5 .btn-primary{
-     background-color:#4E5E30;
-     border-color:#4E5E30;
- }
  .card-title{
-     width: 58px;
-     height: 15px;
-     left: 1266px;
-     top: 156px;
+     width: 58px ;
+     height: 15px !important;
+     left: 1266px !important;
+     top: 156px !important;
      
      font-family: 'Roboto';
      font-style: normal;
-     font-weight: 600;
-     font-size: 13px;
-     line-height: 15px;
+     font-weight: 600 !important;
+     font-size: 13px !important;
+     line-height: 15px !important;
      text-transform: capitalize;
      
      color: #FFFFFF;
  }
 
-.coffee{
-  
-}
 .card-hours{
      position: relative;
-width: 40px;
-height: 30px;
-left: 120px;
-top: -100px;
+width: 40px !important;
+height: 30px !important;
+left: 120px !important;
+top: -100px !important;
 
-background: #070707;
-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.76);
-border-radius: 7px;
-color: #FFFFFF;
+background: #070707 !important;
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.76) !important;
+border-radius: 7px !important;
+color: #FFFFFF !important;
 
 
+font-family: 'Roboto' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 10px !important;
+line-height: 12px !important;
+/* identical to box height */
+
+text-align: center !important;
+
+color: #FFFFFF !important;
+
+box-sizing: border-box !important;
+
+position: relative;
+width: 34px !important;
+height: 24px !important;
+left: 112px !important;
+
+background: #070707 !important;
+border: 0.3px solid #29A4A6 !important;
+border-radius: 7px!important;
+}
+.star{
+width: 13.81px;
+height: 14.67px;
+left: 126.08px;
+top: 374.14px;
+
+color: #FFB53B;
+
+width: 11.22px;
+height: 11.22px;
+left: 126.08px;
+top: 375.86px;
+
+}
+.rate{
+width: 25px;
+height: 15px;
+left: 142.48px;
+top: 375px;
 
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 12px;
-/* identical to box height */
+font-weight: 300;
+font-size: 11px;
+line-height: 139.19%;
+/* or 15px */
 
-text-align: center;
 
 color: #FFFFFF;
-
-box-sizing: border-box;
-
-position: relative;
-width: 34px;
-height: 24px;
-left: 112px;
-top: 10px;
-
-background: #070707;
-border: 0.3px solid #29A4A6;
-border-radius: 7px;
 }
 
 /*****TrendingTournaments****/
 
-.TrendingTournaments{
+.tournaments{
      position: relative;
      width: 245px;
      height: 28px;
-     left: 114px;
      top:25px;     
      font-family: 'Roboto';
      font-style: normal;
@@ -1041,12 +1003,407 @@ border-radius: 7px;
      
      color: #FFFFFF;
 }
+.link{
+width: 47px;
+height: 15px;
 
-.esimg{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 15px;
+
+color: #2B98A1;
+}
+.card-tournaments{
+width: 500px;
+height: 55px;
+left: 114px;
+top: 482px;
+
+background: rgba(19, 26, 37, 0.63);
+border-radius: 4px;
+}
+.tournaments-body{
+
+}
+
+
+/******TrendingOrganisers****/
+.TrendingOrganisers{
+width: 222px;
+height: 28px;
+left: 642px !important;
+top: 435px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+
+
+/*****Sponsors*****/
+.Sponsors{
+width: 103px;
+height: 28px;
+left: 357px;
+top: 102px !important;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.active{
+width: 106px;
+height: 14px;
+left: 378px;
+top: 169px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 14px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.62);
+}
+.past{
+width: 95px;
+height: 14px;
+left: 533px;
+top: 167px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.62);
+}
+.hr{
+width: 1050px;
+height: 1px;
+left: 357px;
+top: 196px;
+
+background: #434654;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.Displaybanner{
+     width: 94px;
+     height: 32px;
+     left: 372.08px;
+     top: 350px;
+     
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 16px;
+     text-transform: capitalize;
+     
+     color: #FFFFFF;
+}
+.dollar{
+
+
+}
+.cal{
+     width: 62px;
+     height: 9px;
+     left: 388px;
+     top: 392px;
+     
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 8px;
+     line-height: 9px;
+     
+     color: rgba(255, 255, 255, 0.47);
+}
+.card-text-brand{
+width: 161px;
+height: 27px;
+left: 372.08px;
+top: 409px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 8px;
+line-height: 9px;
+
+color: rgba(255, 255, 255, 0.47);
+}
+.card-brand{
+width: 197px;
+height: 219px;
+left: 360px;
+margin-top: 61px;
+
+background: rgba(19, 26, 37, 0.85);
+border-radius: 4px;
+}
+.img-brand{
+width: 183px;
+height: 112px;
+margin-left: 3px;
+top: 227px !important;
+
+border-radius: 4px;
+transform: translateY(-30px);
+
+border-radius: 4px;
+}
+.view{
+box-sizing: border-box;
+
+width: 82.86px;
+height: 25.89px;
+left: 464px;
+top: 467px;
+
+border: 1px solid #2199C1;
+border-radius: 32px;
+}
+.signincart{
+     position: relative;
+width: 82.86px !important;
+height: 25.89px !important;
+margin-left: -110px;
+margin-top:-300px;
+
+background: #2199C1;
+border-radius: 32px;
+
+width: 57px;
+height: 11px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 11px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.signinview{
+     box-sizing: border-box;
+
+     position: relative;
+     width: 82.86px;
+     height: 25.89px;
+     margin-left: 22px;
+     margin-top:-300px;
+     
+     border: 1px solid #2199C1;
+     border-radius: 32px;
+
+
+}
+.ml{
+     position: relative;
+     width: 390px;
+height: 41px;
+left: 1014px;
+top: 130px;
+
+background: rgba(255, 255, 255, 0.04);
+border-radius: 4px;
+}
+.eam{
+position: absolute;
+width: 73px;
+height: 28px;
+left: 357px;
+top: 102px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+/*****overview****/
+.overview{
      position: absolute;
-width: 59px;
-height: 39px;
-left: 15px;
-top: 20px;
+width: 92px;
+height: 26px;
+left: 114px;
+top: 96px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+display: flex;
+}
+.feed{
+width: 319px;
+height: 26px;
+left: 114px;
+top: 270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.ParticipatingTournaments{
+width: 264px;
+height: 26px;
+left: 638px;
+top: 270px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.SponsorPerks{
+width: 258px;
+height: 26px;
+left: 114px;
+top: 445px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.UnlockBadges{
+width: 303px;
+height: 26px;
+left: 638px;
+top: 445px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.brand-text{
+width: 121px;
+height: 21px;
+left: 123.32px;
+top: 614.4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 6px;
+line-height: 7px;
+
+color: rgba(255, 255, 255, 0.47);
+
+}
+.form-range{
+background: rgba(255, 255, 255, 0.09);
+border-radius: 4px;
+}
+.dollar{
+box-sizing: border-box;
+
+width: 26.23px;
+height: 18.51px;
+margin-left:96px !important;
+margin-top: -45px;
+
+background: #070707;
+border: 0.3px solid #29A4A6;
+border-radius: 4px;
+
+left: 232.03px;
+top: 577.6px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 7px;
+line-height: 8px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.SuggestedBusinesses{
+width: 226px;
+height: 26px;
+left: 114px;
+top: 711px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.RecommendedOrganisers{
+width: 264px;
+height: 26px;
+left: 114px;
+top: 867px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #FFFFFF;
 }

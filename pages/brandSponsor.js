@@ -3,84 +3,185 @@ import Image from 'next/image'
 const brandSponsor = () => {
   return (
      <div className='container'>
+          <div className='row p-2' style={{marginTop:'102px'}}>
           <h1 className='Sponsors'>Sponsors</h1>
-          <section>
-    <div class="container">
-    	<div class="row">
-    		<div class="col-md-3 col-lg-3 col-sm-12 mt-2">
-    		    <div class="card profile-card-5">
-    		        <div class="card-img-block">
-    		            <img class="card-img-top" src="/oip.jpg"/>
-    		        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">Display banner
+          </div>
+          <div className='row'>
+               <div className='col-sm-2 p-2'>
+                    <h1 className='active'>Active Sponsors</h1>
+               </div>
+               <div className='col-sm-2 p-2'>
+                    <div className='past'>Past Sponsors</div>
+               </div>
+               {/*<div className='col-sm-8  p-2'>
+                    <div className="search-controller"style={{marginLeft:'220px',marginTop:'-50px',position:'relative'}} >
+                         <button className="search-btn"style={{marginLeft:'112px'}}>
+                         <i className="bi bi-search"></i>
+                         </button>
+                         <input type="text" className='ml' placeholder="Search..."style={{width:'390px',marginleft:'111px'}} />
+                    </div>
+  </div>*/}
+               <hr className='hr'></hr>
+          </div>
+          <div className='row '>
+               <div className='col-sm p-2'>
+               <div className="card-brand">
+                    <div className="img-brand">
+                         <img
+          src="b.jpg"
+         className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner
 opportunities</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-                  </div>
-                </div>
-               
-    		</div>
-              <div class="col-md-3 col-lg-3 col-sm-12 mt-2">
-    		    <div class="card profile-card-5">
-    		        <div class="card-img-block">
-    		            <img class="card-img-top" src="/oip.jpg"/>
-    		        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">Display banner
-opportunities</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-                  </div>
-                </div>
-               
-    		</div>
-              <div class="col-md-3 col-lg-3 col-sm-12 mt-2">
-    		    <div class="card profile-card-5">
-    		        <div class="card-img-block">
-    		            <img class="card-img-top" src="/oip.jpg"/>
-    		        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">Display banner
-opportunities</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-                  </div>
-                </div>
-               
-    		</div>
-              <div class="col-md-3 col-lg-3 col-sm-12 mt-2">
-    		    <div class="card profile-card-5">
-    		        <div class="card-img-block">
-    		            <img class="card-img-top" src="/oip.jpg"/>
-    		        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">Display banner
-opportunities</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-                  </div>
-                </div>
-               
-    		</div>
-              <div class="col-md-3 col-lg-3 col-sm-12 mt-2">
-    		    <div class="card profile-card-5">
-    		        <div class="card-img-block">
-    		            <img class="card-img-top" src="/oip.jpg"/>
-    		        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">Display banner
-opportunities</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-                  </div>
-                </div>
-               
-    		</div>
-    	</div>
-    </div>
-</section>
-     </div>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.
+</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+               <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg" className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+               <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg" className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+               <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg" className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+               <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg" className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+          </div>
+          <div className='row '>
+               <div className='col-sm p-2'>
+                    <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg"className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+                    <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg"className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+                    <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg"className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+                    <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg" className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+               <div className='col-sm p-2'>
+                    <div className="card-brand">
+                    <div className="img-brand">
+                         <img src="b.jpg"className='img-brand'/>
+                    </div>
+                    <div className="card-body">
+                    <div class="dollar mt-2"style={{marginTop:'',}}>$222</div>
+                    <h5 className=' Displaybanner'style={{marginLeft:'1px', marginTop:'-100px'}}>Display banner opportunities</h5>
+                    <i className="bi bi-calendar3 cal"> 2023 May 23</i>
+                    <p className='card-text-brand'> We will place your logo/ profile image and add backlink to your profile/ website /server on EsportsPro Sponsor section.</p>
+                    <a href="#" className="btn signincart">Add to cart</a>
+                    <a href="#" className="btn signinview">VIEW</a>
+                    </div>
+               </div>
+               </div>
+          </div>
+         </div>
   )
 }
 
