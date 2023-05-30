@@ -4,10 +4,10 @@ import Image from 'next/image'
 const overView = () => {
   return (
    <div className='container'>
-      <h1 className='overview'>OverView</h1>
-         <div className='row mt-' style={{marginTop:'114px'}}>
+      <h1 className='overview'>Over View</h1>
+         <div className='row ' style={{marginTop:'114px',marginLeft:''}}>
             <div className='col-12 col-md-4 col-sm-12 border'>
-            <div className="card" style={{width:'px',height:'112px',marginLeft:'px',marginTop:'px', borderRadius:'4px',background:'rgba(0, 0, 0, 0.41',position:''}}>
+            <div className="card" style={{width:'',height:'112px',marginLeft:'px',marginTop:'px', borderRadius:'4px',background:'rgba(0, 0, 0, 0.41)',positionLeft:''}}>
                               <div className="card-body">
                                    <i className="bcion bi bi-handbag-fill"></i> $0.0
                                    <p  className="Earnings">Earnings</p>
@@ -17,7 +17,7 @@ const overView = () => {
                          </div>
             </div>
             <div className='col-12 col-md-4 col-sm-12 border'>
-            <div className="card" style={{width:'px',height:'112px',marginLeft:'px',marginTop:'px', borderRadius:'4px',background:'rgba(0, 0, 0, 0.41',position:''}}>
+            <div className="card" style={{width:'',height:'112px',marginLeft:'px',marginTop:'px', borderRadius:'4px',background:'rgba(0, 0, 0, 0.41',position:''}}>
                               <div className="card-body">
                                    <i className="bcion bi bi-handbag-fill"></i> $0.0
                                    <p  className="Earnings">Earnings</p>
@@ -46,39 +46,40 @@ const overView = () => {
                   </div>
                   <div className='col-12 col-md-6 col-sm-12 border'>
                   <h1 className='ParticipatingTournaments'>Participating Tournaments</h1>
-                  <div className='row'>
-                              <div className='col-6 col-md-6 col-sm-12 border'> 
-                              <div class="card mb-3" >
+                     <div className='row'>
+                        <div className='col- col-md-6 col-sm-12 border'> 
+                              <div class="card mb-3 p-2" style={{width:'250px',height:'112px',background:' rgba(0, 0, 0, 0.41)'}}>
                                         <div class="row g-0">
                                              <div class="col-md-2">
-                                                  <img src="b.jpg" class="img-fluid rounded-start" alt="..."/>
+                                                  <img src="g.jpg" class="img" alt="..." style={{width:'93px',height:'92px',background:' rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}/>
                                              </div>
                                              <div class="col-md-2">
                                                   <div class="card-body">
                                                        <h5 class="card-title">Card title</h5>
-                                                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                       <p class="card-text">Game:acrjsaia</p>
+                                                       <i className="bi bi-calendar3 " style={{}}> 2023 May 23</i>
                                                   </div>
                                              </div>
                                         </div>
-                                   </div></div>
-                              <div className='col-6 col-md-6 col-sm-12 border'>
-                                    <div class="card mb-3" >
+                              </div>
+                        </div>
+                        <div className='col- col-md-6 col-sm-12 border'> 
+                              <div class="card mb-3 p-2" style={{width:'250px',height:'112px',background:' rgba(0, 0, 0, 0.41)'}}>
                                         <div class="row g-0">
                                              <div class="col-md-2">
-                                                  <img src="b.jpg" class="img-fluid rounded-start" alt="..."/>
+                                                  <img src="g.jpg" class="img" alt="..." style={{width:'93px',height:'92px',background:' rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}/>
                                              </div>
                                              <div class="col-md-2">
                                                   <div class="card-body">
                                                        <h5 class="card-title">Card title</h5>
-                                                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                       <p class="card-text">Game:acrjsaia</p>
+                                                       <i className="bi bi-calendar3 " style={{}}> 2023 May 23</i>
                                                   </div>
                                              </div>
                                         </div>
-                                   </div>
                               </div>
-                              </div>
+                        </div>
+                     </div>
                   </div>
                </div>
                <div className='row'>
@@ -88,7 +89,7 @@ const overView = () => {
                   <div className='col-6 col-lg-4 col-md-6 col-sm-12 border'>
                      <div className="card mb-3" style={{height:'168.94px',left:'px',width:'151.97px',top:'',position:'relative',background:'rgba(19, 26, 37, 0.85)',borderRadius:'4px'}}>
                         <div className="img">
-                         <img src="oip.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)'}}/>
+                         <img src="oip.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)',paddingLeft:'10px'}}/>
                         </div>
                         <div className="card-body">
                         <div class="dollar mt-"style={{marginTop:'',}}>$222</div>
@@ -104,7 +105,7 @@ const overView = () => {
                   <div className='col-6 col-lg-4 col-md-6 col-sm-12 border'>
                <div className="card mb-3" style={{height:'168.94px',left:'px',width:'151.97px',top:'',position:'relative',background:'rgba(19, 26, 37, 0.85)',borderRadius:'4px'}}>
                         <div className="img">
-                         <img src="oip.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)'}}/>
+                         <img src="oip.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)',paddingLeft:'10px'}}/>
                         </div>
                         <div className="card-body">
                         <div class="dollar mt-"style={{marginTop:'',}}>$222</div>
@@ -120,7 +121,7 @@ const overView = () => {
                   <div className='col-6 col-lg-4 col-md-4 col-sm-12 border'>
                   <div className="card mb-3" style={{height:'168.94px',left:'px',width:'151.97px',top:'',position:'relative',background:'rgba(19, 26, 37, 0.85)',borderRadius:'4px'}}>
                         <div className="img">
-                         <img src="oip.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)'}}/>
+                         <img src="b.jpg"className='img' style={{width:'142px',height:'72px',borderRadius:'4px',left:'',top:'',position:'relative',transform: 'translateY(-40px)',paddingLeft:'10px'}}/>
                         </div>
                         <div className="card-body">
                         <div class="dollar mt-"style={{marginTop:'',}}>$222</div>
@@ -166,13 +167,15 @@ const overView = () => {
              </div>
                <div className='row'>
                   <div className='col p-2 border pr-0 '>
-                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                  <Link href='/SuggestedBusinesses'>
+                     <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
                      <img src="g.jpg" class=" img-fluid " alt="..."/>
                      <div class="card-img-overlay">
                         <h5 class="card-title" style={{width:'62px',heigh
                      :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
                      </div>
                   </div>
+                  </Link>
                   </div>
                   <div className='col p-2 border pr-0'>
                   <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
@@ -247,17 +250,152 @@ const overView = () => {
                   </div>
                </div>
                 <div className='row'>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
-                  <div className='col border'>1</div>
+                  <div className='col border p-2 '>
+                     <Link href='/AddNewTeam'>
+                     <button type="button" class="cir">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                           <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"></path>
+                        </svg>
+                     </button>
+                     </Link>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
+                  <div className='col p-2 border pr-0 '>
+                  <div class="card" style={{width:'100px',height:'93px',background: 'linear-gradient(360deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%)',borderRadius: '4px'}}>
+                     <img src="g.jpg" class=" img-fluid " alt="..."/>
+                     <div class="card-img-overlay">
+                        <h5 class="card-title" style={{width:'62px',heigh
+                     :'12px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'10px',lineHeight:'12px',textDecoration:'capitalize',color:'#ffffff'}}>Public Library</h5>
+                     </div>
+                  </div>
+                  </div>
                </div>
             </div>
-            <div className='col-12 col-md-2 border'>1</div>
+            <div className='col-12 col-md-2 border'>
+               <div className='row rowborder'>
+                  <div className='col'>
+                     <h1 className='LiveTournaments'>Live Tournaments</h1>
+                     <div className='row border'>
+                     <div class="card mb-3" style={{width: '',position:'',height: '',left: '',top: '',background: 'rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}>
+                     <div class="row ">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                           <img src="g1.jpg" class="img-fluid p-2 rounded-start" alt="..."/>
+                        </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title"style={{width:'58px',heigh:'15px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'13px',lineHeight:'15px',textDecoration:'capitalize',color:'#ffffff',marginLeft:'1px'}}>Coffe Day</h5>
+                           <i className="bi bi-calendar3 " style={{position: '',width: '47.83px',height: '6.94px',left: '135.6px',marginTop: '-10px',fontFamily: 'Roboto',fontStyle: 'normal',fontWeight: '300',fontSize: '6px',lineHeight: '7px',color: 'rgba(255, 255, 255, 0.47'}}> 2023 May 23</i>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+                     </div>
+                     <div className='row border'>
+                     <div class="card mb-3" style={{width: '',position:'',height: '',left: '',top: '',background: 'rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}>
+                     <div class="row ">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                           <img src="g1.jpg" class="img-fluid p-2 rounded-start" alt="..."/>
+                        </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title"style={{width:'58px',heigh:'15px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'13px',lineHeight:'15px',textDecoration:'capitalize',color:'#ffffff',marginLeft:'1px'}}>Coffe Day</h5>
+                           <i className="bi bi-calendar3 " style={{position: '',width: '47.83px',height: '6.94px',left: '135.6px',marginTop: '-10px',fontFamily: 'Roboto',fontStyle: 'normal',fontWeight: '300',fontSize: '6px',lineHeight: '7px',color: 'rgba(255, 255, 255, 0.47'}}> 2023 May 23</i>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+                     </div>
+                     <div className='row border'>
+                     <div class="card mb-3" style={{width: '',position:'',height: '',left: '',top: '',background: 'rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}>
+                     <div class="row ">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                           <img src="g1.jpg" class="img-fluid p-2 rounded-start" alt="..."/>
+                        </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title"style={{width:'58px',heigh:'15px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'13px',lineHeight:'15px',textDecoration:'capitalize',color:'#ffffff',marginLeft:'1px'}}>Coffe Day</h5>
+                           <i className="bi bi-calendar3 " style={{position: '',width: '47.83px',height: '6.94px',left: '135.6px',marginTop: '-10px',fontFamily: 'Roboto',fontStyle: 'normal',fontWeight: '300',fontSize: '6px',lineHeight: '7px',color: 'rgba(255, 255, 255, 0.47'}}> 2023 May 23</i>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+                     </div>
+                     <div className='row border'>
+                     <div class="card mb-3" style={{width: '',position:'',height: '',left: '',top: '',background: 'rgba(0, 0, 0, 0.41)',borderRadius: '4px'}}>
+                     <div class="row ">
+                        <div class="col-md-4 col-lg-4 col-sm-12">
+                           <img src="g1.jpg" class="img-fluid p-2 rounded-start" alt="..."/>
+                        </div>
+                     <div class="col-md-8">
+                        <div class="card-body">
+                           <h5 class="card-title"style={{width:'58px',heigh:'15px',fontFamily:'Roboto',fontStyle:'normal',fontWeight:'600px',fontSize:'13px',lineHeight:'15px',textDecoration:'capitalize',color:'#ffffff',marginLeft:'1px'}}>Coffe Day</h5>
+                           <i className="bi bi-calendar3 " style={{position: '',width: '47.83px',height: '6.94px',left: '135.6px',marginTop: '-10px',fontFamily: 'Roboto',fontStyle: 'normal',fontWeight: '300',fontSize: '6px',lineHeight: '7px',color: 'rgba(255, 255, 255, 0.47'}}> 2023 May 23</i>
+                        </div>
+                     </div>
+                  </div>
+                  </div>
+                     </div>
+                     <div className='row border'>
+                        <div className='col' style={{width:'236px',height:'311px', background:'#ffffff',borderRadius:'4px'}}>
+                           <img src="wp.jpg" class="img-fluid" alt=""/>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
   )

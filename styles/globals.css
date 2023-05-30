@@ -1407,3 +1407,68 @@ line-height: 26px;
 
 color: #FFFFFF;
 }
+.add{
+
+   
+
+}
+.rowborder{
+   width: 278px;
+height: 756px;
+left: 1162px;
+top: 268px;
+
+background: rgba(0, 0, 0, 0.22);
+}
+.LiveTournaments{
+width: 161px;
+height: 23px;
+left: 1183px;
+top: 288px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+.cir{
+   width: 120px;
+height: 93px;
+left: 114px;
+top: 910px;
+
+background: #42AA85;
+border-radius: 4px;
+}
+.form-label{
+width: 105px;
+height: 16px;
+left: 154px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #FFFFFF;
+
+}
+.form-select{
+
+   
+   background: rgba(217, 217, 217, 0.06);
+   border-radius: 4px;
+
+}
+.form-control{
+
+
+
+background: rgba(217, 217, 217, 0.06);
+border-radius: 4px;
+}

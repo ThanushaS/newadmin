@@ -14,6 +14,7 @@ import proTeams from './proTeams'
 import overView from './overView'
 import participatingTournaments from './participatingTournaments'
 import ManageMyTournaments from './ManageMyTournaments'
+import SuggestedBusinesses from './SuggestedBusinesses'
 
 const inter = Inter({ subsets: ['latin'] })
 import image from 'next/image'
@@ -43,16 +44,11 @@ export default function Home() {
         <LocalBusinesses/>
           <TrendingTournaments/>
        <TrendingOrganisers/>
-      
-      </div>
-      <div className={styles.container}>
-          <overView/>
+       <overView/>
           <participatingTournaments/>
-        </div>
-        <div className=''>
-          <proTeams/>
-             
-        </div>
+          <SuggestedBusinesses/>
+      </div>
+    
      
         </body>
       </div>
